@@ -1,0 +1,9 @@
+.App {
+  width: 1680px;
+  height: 2000px;
+  flex-grow: 0;
+  background-color: #fff;
+  
+  /* common padding  */
+  padding: 0 80px;
+}

@@ -1,0 +1,23 @@
+.Title {
+  width: 1680px;
+  height: 300px;
+  flex-grow: 0;
+  margin: 0 0 34px;
+  padding: 120px 0 36px 0;
+  background-color: #fff;
+}
+
+.TitleWord {
+  width: 750px;
+  height: 144px;
+  flex-grow: 0;
+  font-family: Exo2;
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.72px;
+  text-align: left;
+  color: #000;
+}
