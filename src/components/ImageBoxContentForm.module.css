@@ -1,0 +1,20 @@
+.ImageBoxContentForm {
+  width: 100%;
+}
+
+
+.ImageBoxContentForm label {
+  width: 204px;
+  height: 19px;
+  flex-grow: 0;
+  margin: 0 auto;
+  font-family: 'Exo 2';
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-align: center;
+  color: #fff;
+}

@@ -1,0 +1,65 @@
+.ImageBoxContent {
+  padding: 0 80px;
+  position: absolute;
+  z-index: 1;
+}
+
+.ImageBoxContentText {
+  margin-bottom: 95px;
+}
+
+.ImageBoxContentText h2{
+  width: 100%;
+  height: 36px;
+  flex-grow: 0;
+  margin: 152px 0 23px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.36px;
+  text-align: center;
+  color: #fff;
+}
+
+.ImageBoxContentText p:nth-of-type(1) {
+  width: 100%;
+  height: 89px;
+  flex-grow: 0;
+  margin: 0 0 32px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.27px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.Row {
+  width: 100%;
+  height: 1px;
+  flex-grow: 0;
+  margin-bottom:  32px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ImageBoxContent p:nth-of-type(2) {
+  width: 100%;
+  height: 43px;
+  flex-grow: 0;
+  margin: 32px 0 0 2px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: -0.21px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}

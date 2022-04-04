@@ -1,0 +1,8 @@
+.Cards {
+  list-style: none;
+  padding: 0 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}

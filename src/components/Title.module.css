@@ -1,17 +1,16 @@
 .Title {
   width: 1680px;
   height: 300px;
-  flex-grow: 0;
-  margin: 0 0 34px;
-  padding: 120px 0 36px 0;
   background-color: #fff;
+  box-sizing: border-box;
+  padding:120px 80px 0 80px;
 }
 
 .TitleWord {
   width: 750px;
   height: 144px;
   flex-grow: 0;
-  font-family: Exo2;
+  font-family: 'Exo 2', sans-serif;
   font-size: 48px;
   font-weight: normal;
   font-stretch: normal;

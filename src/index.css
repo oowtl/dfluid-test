@@ -1,3 +1,11 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap');
+
 body {
   margin: 0;
+}
+#root {
+  width: 1680px;
+  height: 2000px;
 }

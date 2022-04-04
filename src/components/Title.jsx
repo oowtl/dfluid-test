@@ -7,9 +7,9 @@ const Title = (props) => {
 
   return (
     <div className={styles.Title}>
-      <span className={styles.TitleWord}>
+      <h1 className={styles.TitleWord}>
         Snap photos and share like<br /> never before
-      </span>
+      </h1>
     </div>
   )
 };
