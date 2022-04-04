@@ -1,13 +1,15 @@
 .ImageBoxContentForm {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
-
 
 .ImageBoxContentForm label {
   width: 204px;
   height: 19px;
   flex-grow: 0;
-  margin: 0 auto;
   font-family: 'Exo 2';
   font-size: 16px;
   font-weight: bold;
@@ -18,3 +20,44 @@
   text-align: center;
   color: #fff;
 }
+
+.ImageBoxContentFormBox {
+  width: 500px;
+  height: 50px;
+  flex-grow: 0;
+  margin: 16px 0 0;
+  padding: 4px 10px 4px 4px;
+  border-radius: 7px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: solid 1px #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  display: flex;
+  align-items: center;
+}
+
+.ImageBoxContentFormBox input {
+  width: 446px;
+  height: 42px;
+  flex-grow: 0;
+  margin: 0 8px 0 0;
+  font-family: 'Exo 2';
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-align: left;
+  color: #fff;
+  
+}
+
+.ImageBoxContentFormBox i img {
+  width: 32px;
+  height: 32px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+
