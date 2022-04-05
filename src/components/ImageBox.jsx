@@ -6,7 +6,7 @@ import ImageBoxContent from './ImageBoxContent';
 const Image = (props) => {
   return (
     <div style={{position: "relative"}}>
-      <ImageBoxImage />
+      <ImageBoxImage imageData={props.imageData}/>
       <ImageBoxContent />
     </div>
   )

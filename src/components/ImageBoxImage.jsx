@@ -3,10 +3,15 @@ import React from 'react';
 import styles from './ImageBoxImage.module.css';
 
 const ImageBoxImage = (props) => {
-  return (
-    <div className={styles.ImageBoxImage}>
+  const style = {
+    backgroundImage: `url('${props.imageData}')`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover'
+  }
 
-    </div>
+
+  return (
+    <img src={props.imageData} alt="" className={styles.ImageBoxImage}/>
   )
 };
 
